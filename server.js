@@ -11,12 +11,13 @@ app.get('/events', (req, res) => {
     for (let i = 0; i < x.length; i++) { 
     text += "<br>" + "<br>" + x[i].eventName + "<br>"
     text += x[i].location + "<br>"
-    }
+    text += x[i].date + "<br>";
+}
     res.set('Content-Type', 'text/html');
     res.send(new Buffer(`All Events: ${text}`));
     })
 
-app.get('/eventsversion', (req, res) => {
+app.get('/version', (req, res) => {
     let x = controller.version()
     res.send(`This is version ${x}`)
     })
