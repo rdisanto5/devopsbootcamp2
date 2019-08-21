@@ -26,7 +26,7 @@ return eventList;
 
 exports.version = function(){
 
-let version = "1.0"
+let version = "1.0.0"
 
 return version;
 }
