@@ -3,7 +3,7 @@ const controller = require('./eventController')
 const app = express()
 const port = 8080
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello World from team app!'))
 
 app.get('/events', (req, res) => {
     let x = controller.events()
