@@ -13,11 +13,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-<<<<<<< HEAD
     "mocha": "^6.2.0"
-=======
-    "mocha": "^6.2.0",
-    "request": "^2.88.0"
->>>>>>> 705e614aee270df65ca2e51381072bcc7dc7b397
+
   }
 }
