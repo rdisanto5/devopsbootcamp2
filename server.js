@@ -11,8 +11,7 @@ app.get('/events', (req, res) => {
     for (let i = 0; i < x.length; i++) { 
     text += "<br>" + "<br>" + x[i].eventName + "<br>"
     text += x[i].location + "<br>"
-    text += x[i].date + "<br>";
-}
+    }
     res.set('Content-Type', 'text/html');
     res.send(new Buffer(`All Events: ${text}`));
     })
