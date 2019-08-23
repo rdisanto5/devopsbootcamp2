@@ -8,7 +8,7 @@ let eventObj1 = {"eventID":001,
 
 let eventObj2 = {"eventID":002,
             "eventName": "DevOps Bootcamp 2",
-            "location":"Philadelphia",
+            "location":"Chicago",
             "date":"08-22-2019"
 }
 
