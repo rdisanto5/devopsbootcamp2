@@ -15,7 +15,7 @@ spec:
         app: devops-app
     spec:
       containers:
-      - image: gcr.io/devops-bootcamp-250416/devops-bootcamp:v0.BUILD_NUMBER
+      - image: gcr.io/devops-bootcamp-250416/devops-bootcamp2:v0.BUILD_NUMBER
         name: devops-bootcamp-sha256
 
 ---
