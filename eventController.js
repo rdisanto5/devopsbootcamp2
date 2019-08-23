@@ -2,7 +2,7 @@ exports.events=function(){
 
 let eventObj1 = {"eventID":001,
             "eventName": "DevOps Bootcamp 1",
-            "location":"Boston",
+            "location":"Atlanta",
             "date":"08-21-2019"
 }
 
